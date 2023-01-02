@@ -6,12 +6,12 @@ Bu dosya içinde yapılan tasarımların şematik ismi aşağıdaki gibi belirti
 Aşağıda belirtilen tasarımlar aşağıdaki gibi isimlendirilmelidir. 
 Eklenen diğer tasarımlar istenildiği gibi isimlendirilebilir.
 
-Tasarım			Şematik Adı	
+Tasarım     Şematik Adı	
 
-inverter 		inv.sch (Örnek için yazılmıştır, yüklenen repoda bulunmasına gerek yoktur)
-ldo				ldo.sch
-vco				vco.sch
-bandgap			bandgap.sch
+inverter    inv.sch (Örnek için yazılmıştır, yüklenen repoda bulunmasına gerek yoktur)
+ldo         ldo.sch
+vco         vco.sch
+bandgap     bandgap.sch
 .
 .
 .

@@ -1,0 +1,31 @@
+** sch_path: /home/ubuntu/Downloads/proton-main/takim_adi/xschem/inv_TB.sch
+**.subckt inv_TB
+x1 A Y VDD GND inv
+V1 VDD GND 1.8
+V2 A GND pulse 0 1.8 2n 1n 1n 10n 20n
+XQ1 GND GND VDD sky130_fd_pr__pnp_05v5_W3p40L3p40
+V3 VDD GND 1.8
+**** begin user architecture code
+
+** opencircuitdesign pdks install
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt_mm
+
+
+
+
+
+.include ../netgen/inv_pex.spice
+
+.control
+
+save all
+dc
+save inv_TB.raw
+
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

@@ -1,0 +1,17 @@
+Filtre, opamp ve bangap için istenen semboller için "sembol.pdf" dokümanına bakılabilir. 
+
+"takim_adi_DTR" klasör ismi Türkçe karakter içermemelidir. 
+
+Bu dosya içinde yapılan tasarımların şematik ismi aşağıdaki gibi belirtilmelidir.
+Aşağıda belirtilen tasarımlar aşağıdaki gibi isimlendirilmelidir. 
+Eklenen diğer tasarımlar istenildiği gibi isimlendirilebilir.
+
+Tasarım			Şematik Adı	
+
+inverter 		inv.sch (Örnek için yazılmıştır, yüklenen repoda bulunmasına gerek yoktur)
+ldo				ldo.sch
+vco				vco.sch
+bandgap			bandgap.sch
+.
+.
+.

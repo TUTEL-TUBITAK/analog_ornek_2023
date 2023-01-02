@@ -1,0 +1,105 @@
+scale 1000 1 500000
+rnode "VDD.t1" 0 0 505 886 0
+rnode "VDD.n0" 0 0 362 712 0
+rnode "VDD.n1" 0 0 362 712 0
+rnode "VDD.n2" 0 0 362 850 0
+rnode "VDD.n3" 0 0 362 850 0
+rnode "VDD.n4" 0 0 362 1029 0
+rnode "VDD.n5" 0 0 362 1029 0
+rnode "VDD.n6" 0 0 678 850 0
+rnode "VDD.n7" 0 0 678 850 0
+rnode "VDD.n8" 0 0 520 519 0
+rnode "VDD.n9" 0 0 520 519 0
+rnode "VDD.n10" 0 0 520 1181 0
+rnode "VDD.t0" 0 0 520 1181 0
+rnode "VDD.n11" 0 0 520 1181 0
+rnode "VDD.n12" 0 0 520 1181 0
+rnode "VDD.n13" 0 0 362 1029 0
+rnode "VDD.n14" 0 0 362 1029 0
+rnode "VDD.n15" 0 0 362 1029 0
+rnode "VDD.n16" 0 0 362 891 0
+rnode "VDD.n17" 0 0 362 891 0
+rnode "VDD.n18" 0 0 362 891 0
+rnode "VDD" 0 0 51 791 0
+resist "VDD.n7" "VDD.n6" 0.0005
+resist "VDD.n5" "VDD.n4" 0.000500006
+resist "VDD.n15" "VDD.n5" 0.000500887
+resist "VDD.t0" "VDD.n10" 0.000933786
+resist "VDD.n3" "VDD.n2" 0.001
+resist "VDD.n4" "VDD.n3" 0.00149999
+resist "VDD.n9" "VDD.n8" 0.0025
+resist "VDD.n11" "VDD.t0" 0.0025
+resist "VDD.n12" "VDD.n11" 0.0025
+resist "VDD.n10" "VDD.n9" 0.00256621
+resist "VDD.n1" "VDD.n0" 0.003
+resist "VDD.n4" "VDD.n1" 0.00349998
+resist "VDD.n14" "VDD.n13" 0.006
+resist "VDD.n15" "VDD.n14" 0.00649904
+resist "VDD.n18" "VDD.n17" 0.0381176
+resist "VDD.n17" "VDD.n16" 0.072
+resist "VDD.n16" "VDD.n15" 0.0724885
+resist "VDD" "VDD.n18" 0.486
+resist "VDD.n18" "VDD.t1" 14.5845
+resist "VDD.n13" "VDD.n12" 105.135
+resist "VDD.n12" "VDD.n7" 169.364
+rnode "Y.t1" 0 0 535 886 0
+rnode "Y.t0" 0 0 535 153 0
+rnode "Y.n0" 0 0 737 465 0
+rnode "Y" 0 0 767 373 0
+resist "Y" "Y.n0" 0.177
+resist "Y.n0" "Y.t1" 16.1255
+resist "Y.n0" "Y.t0" 18.8636
+rnode "VSS.t1" 0 0 505 153 0
+rnode "VSS.n0" 0 0 678 184 0
+rnode "VSS.n1" 0 0 678 184 0
+rnode "VSS.n2" 0 0 520 410 0
+rnode "VSS.n3" 0 0 520 410 0
+rnode "VSS.t0" 0 0 520 410 0
+rnode "VSS.n4" 0 0 520 410 0
+rnode "VSS.n5" 0 0 520 -42 0
+rnode "VSS.n6" 0 0 520 -42 0
+rnode "VSS.n7" 0 0 362 77 0
+rnode "VSS.n8" 0 0 362 77 0
+rnode "VSS.n9" 0 0 362 184 0
+rnode "VSS.n10" 0 0 362 184 0
+rnode "VSS.n11" 0 0 362 268 0
+rnode "VSS.n12" 0 0 362 268 0
+rnode "VSS.n13" 0 0 362 268 0
+rnode "VSS.n14" 0 0 362 268 0
+rnode "VSS.n15" 0 0 362 268 0
+rnode "VSS.n16" 0 0 362 161 0
+rnode "VSS.n17" 0 0 362 161 0
+rnode "VSS.n18" 0 0 362 161 0
+rnode "VSS" 0 0 166 113 0
+rnode "VSS" 0 0 214 202 0
+resist "VSS.n14" "VSS.n13" 0.000500029
+resist "VSS.n15" "VSS.n14" 0.000504005
+resist "VSS.n1" "VSS.n0" 0.001
+resist "VSS.n4" "VSS.t0" 0.00142361
+resist "VSS.n10" "VSS.n9" 0.002
+resist "VSS.n5" "VSS.n4" 0.00207639
+resist "VSS.n13" "VSS.n10" 0.00249996
+resist "VSS.n6" "VSS.n5" 0.0025
+resist "VSS.t0" "VSS.n3" 0.0025
+resist "VSS.n3" "VSS.n2" 0.0025
+resist "VSS.n12" "VSS.n11" 0.007
+resist "VSS.n13" "VSS.n12" 0.00749987
+resist "VSS.n8" "VSS.n7" 0.015
+resist "VSS.n15" "VSS.n8" 0.0154955
+resist "VSS" "VSS" 0.054
+resist "VSS.n18" "VSS.n17" 0.0685455
+resist "VSS.n17" "VSS.n16" 0.13
+resist "VSS.n16" "VSS.n15" 0.130461
+resist "VSS" "VSS.n18" 0.303
+resist "VSS.n18" "VSS.t1" 17.6806
+resist "VSS.n7" "VSS.n6" 93.294
+resist "VSS.n6" "VSS.n1" 131.688
+rnode "A.t1" 0 0 520 886 0
+rnode "A.t0" 0 0 520 153 0
+rnode "A.n0" 0 0 491 466 0
+rnode "A" 0 0 63 370 0
+resist "A" "A.n0" 0.963
+resist "A.n0" "A.t0" 310.105
+resist "A.n0" "A.t1" 485.228
+device msubckt sky130_fd_pr__pfet_01v8 505 686 506 687  "VDD.t0" "A.t1" 60 0 "VDD.t1" 400 0 "Y.t1" 400 0
+device msubckt sky130_fd_pr__nfet_01v8 505 53 506 54  "VSS.t0" "A.t0" 60 0 "VSS.t1" 200 0 "Y.t0" 200 0

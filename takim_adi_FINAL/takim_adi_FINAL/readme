@@ -1,0 +1,19 @@
+
+ldo, vco ve bangap için istenen semboller için "sembol.pdf" dokümanına bakılabilir. 
+
+"takim_adi_FINAL" klasör ismi Türkçe karakter içermemelidir. 
+
+Bu dosya içinde yapılan tasarımın şematik ve layout ismi aşağıdaki gibi belirtilmelidir.
+Aşağıda belirtilen tasarımlar aşağıdaki gibi isimlendirilmelidir. 
+Eklenen diğer tasarımlar istenildiği gibi isimlendirilebilir.
+
+Tasarım			Şematik Adı			Layout Adı
+
+inverter 		inv.sch				inv.mag (Örnek için yazılmıştır, yüklenen repoda bulunmasına gerek yoktur)
+ldo				ldo.sch				ldo.mag
+vco				vco.sch				vco.mag
+bandgap			bandgap.sch			bandgap.mag
+.
+.
+.
+
